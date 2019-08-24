@@ -1,143 +1,45 @@
 <!DOCTYPE html PUBLIC>
 <html>
-<head>
-	<title>Tech Reck</title>
-    <style >
-.im{
-	margin-top:3%;
-	margin-left:3%  
-	width:50%;
-	height:550px;  
-	transition: .5s;
-}
-.im:hover{
-	//filter:brightness(200%); 
-    //filter:blur(2px);
-    //filter:sepia(8);  
-    //filter:hue-rotate(550deg);
-     filter:saturate(8); 
-    // filter:invert(.8);
-    //filter:grayscale(1); 
-}
-.io{
-	margin-top: 3%;
-	margin-right:3%;
-	width:30%;
-	height:550px;
-	transition: .5s;   
-}
-.io:hover{
-	filter:blur(8px); 
-}
-.im{
-	margin-top:3%;
-	margin-right: 3%;
-	width:30%;
-	height:550px;z
-	transition:.5s;     
-}
-.im:hover{
-	filter:sepia(8); 
-}
-.ik{
-	margin-top: 3%;
-	margin-left:3%;
-	width:30%;
-	height:550px;
-	transition:.5s;
-
-}
-.ik:hover{
-	filter:hue-rotate(500deg); 
-}
-.il{
-	margin-top:3%;
-	margin-left:3%;
-	width:30%;
-	height:550px;
-	transition:.5s;     
-}
-.il:hover{
-	filter:saturate(5); 
-}
-.in{
-	margin-top:3%;
-	margin-left:3%;
-	width: 30%;
-	height:550px;
-	filter:blur(8px);
-	transition:1s;     
-}
-.in:hover{
-	filter:blur(0px); 
-}
-.ib{
-	margin-top:3%;
-	margin-left:3%;
-	width:30%;
-	height:550px;
-	transition:.5s;     
-}
-.ib:hover{
-   filter:brightness(250%); 
-}
-.ih{
-	margin-top:3%;
-	margin-left:3%;
-	width:30%;
-	height:550px;
-	transition:.5s;     
-}
-.ih:hover{
-	filter:saturate(5); 
-}
-.ir{
-
-	margin-top:3%;
-	margin-left:3%;
-	width:30%;
-	height:550px;
-	transition:.5s;
-
-}
-.ir:hover{
-
-	filter:brightness(150%); 
-}
-.iy{
-
-	margin-top:3%;
-	margin-left:3%;
-	width:30%;
-	height:550px;
-	transition:.5s;     
-}
-.iy:hover{
-	filter:hue-rotate(400deg); 
-}
-.ix{
-	margin-top:3%;
-	margin-left:3%;
-	width:30%;
-	height:550px;
-	transition:.5s;     
-}
-.ix:hover{
-   	filter:saturate(8); 
-}
-</style>
-</head>
+<HEAD>
+	<TITLE>Tech Reck</TITLE>
+	<style >
+		.html{scroll-behavior: smooth;}
+		.home{width: 100%; height: 800px; background:rgba(15, 15, 15, 0.897);}
+		.about{width: 100%; height: 800px; background:palegreen;}
+		.updates{width: 100%; height: 800px; background:gray;}
+		.contact{width: 100%; height: 800px; background:royalblue;}
+		.nav{position: sticky; top: 0px; display: flex; background:rgba(189, 3, 118, 0.774);}
+        .nav a{padding: 14px 20px; color:whitesmoke; text-decoration: red ; font: bold;}
+        .name{  margin-left: 37%; font-size: 70; color: aqua    ; align-content: center; transition: 1s; width: 30%; height:100px; ; }
+        .name:hover{background-color:rgba(5, 0, 0, 0.63); transform: scale(1.5) rotate(360deg); }
+        .content{color: yellow; margin-left: 30%; margin-top: 12%; font-size: 30; transition: 2s; }	
+        .content:hover{transform: scale(1.5);}
+    </style>
+</HEAD>
 <body>
-	<img src="IMG_20190702_124103.jpg" class="im" />
-    <IMG SRC="/home/devansh/Screenshots/IMG_20190713_111729.jpg" class="io" /> 
-    <img src="/home/devansh/Screenshots/IMG_20190714_182818.jpg" class="im" /><br>
-    <img src="/home/devansh/Screenshots/Screenshot_2019-07-19-21-58-15-771_lockscreen.png" class="ik" />
-    <img src="/home/devansh/Screenshots/IMG_20190706_110151.jpg" class="il">
-    <img src="/home/devansh/Screenshots/Screenshot_2019-07-23-06-52-32-636_lockscreen.png" class="in" /></br><br>
-    <img src="/home/devansh/Screenshots/Screenshot_2019-07-18-09-06-54-909_lockscreen.png" class="ib" />
-    <img src="/home/devansh/Screenshots/IMG_20190715_184847.jpg" class="ih" />
-    <img src="/home/devansh/Screenshots/Screenshot_2019-07-20-15-51-07-907_lockscreen.png" class="ir" /></br><br>
-    <img src="/home/devansh/Screenshots/Screenshot_2019-07-19-15-15-35-317_lockscreen.png" class="iy" />
-    <img src="/home/devansh/Screenshots/Screenshot_2019-07-22-18-23-03-162_lockscreen.png" class="ix" /></br>
+    <div class="nav">
+    <a href="#im">Home</a>
+    <a href="#io">About</a>
+	<a href="#ip">Tech Updates</a>
+	<a href="#ik">Contact Us</a>
+	</div>
+    <div class="home" id="im">
+        <div class="name">TECH-RECK</div>
+        <div class="content">
+           <p>
+             This is for solution of C , HTML and tutorial for how to<br> boot os and promblem
+             
+             regarding any OS.Here you will<br> also find the daily update .
+           For more<br> informayion 
+             click on Tech Updates. 
+
+           </p>
+
+        </div>
+    </div>
+	<div class="about" id="io"></div>
+	<div class="updates" id="ip"></div>
+	<div class="contact" id="ik"></div>
+
 </body>
 </html>
