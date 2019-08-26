@@ -4,173 +4,54 @@
 <HEAD>
 	<TITLE>Tech Reck</TITLE>
 	<style >
-
-
-
-
-        
-
-    
+         *{
+            box-sizing: border-box;
+         }
 		.html{scroll-behavior: smooth;}
-		.home{width: 100%; height: 100%; background:rgba(15, 15, 15, 0.897);
-            margin:0;font-family:arial;
+		.home{width: 100%; height: 100%; margin-top: 0%; background:rgba(15, 15, 15, 0.897);
+            margin:0;font-family:arial;\
+            display: flex;
+            flex-wrap: wrap;
     background:url("ti2.png");
      background-repeat:no-repeat;
     background-size:100% ;}
-		.about{width: 100%; height: 100%; background:black;}
-		.updates{width: 100%; height: 100%; background:black;}
-		.contact{width: 100%; height: 100%; background:royalblue;
-            margin:0;font-family:arial;
-    background:url("contacttitle.jpg");
-     background-repeat:no-repeat;
-    background-size:100% ;}
-        
-		.nav{position:sticky; top: 0px; display: flex; background:black;}
-        .nav a{padding: 14px 20px; color:whitesmoke; text-decoration: red ; font: bold;}
-        .name{  margin-left: 37%; font-size: 50; color: aqua    ;  transition: 1s; width: 30%; height:10%; ; }
-        .name:hover{background-color:rgba(5, 0, 0, 0.63); transform: scale(1.5) rotate(360deg); }
-        .content{color:white; margin-left: 23%; margin-top: 15%; font-size: 30; transition: 2s; }	
+        .nav{position:sticky; top: 0px; width: 100%; display: flex; background:black;}
+        .nav a{padding:  2%; color:whitesmoke; text-decoration: red ; font: bold;}
+         .name{
+            background: black; width: 100%; padding: 3%; display: flex; flex-wrap: wrap; flex: 100%;
+            color: lightgreen; font-size: 45; text-align: center;
+         }
+         .abc{
+            display: flex; flex-wrap: wrap; width: 100%; padding: 7%; background: gray; 
+            text-align: center;
+         }
+         
+        .content{color:white; margin-left: 23%; margin-top: 0%; font-size: 30; transition: 2s; }   
         .content:hover{transform: scale(1.2);}
-       
-        .cn{
-            font-size: 50;
-            width: 20%;
-            height: 7%;
-            margin-left: 40%;
-            text-align: center;
-            text-decoration: black;
-            font:700;
-            transition: 1.5s;
+        @media only screen and (max-width: 100%;){
 
-        }
-        .cn:hover{
-            transform: scale(2);
-            background: rgba(2, 2, 190, 0.637);
-        }
-        .cb{
-            font-size: 30;
-            color:brown;
-            margin-left: 30%;
-            margin-top: 14%;
-            transition: 2s;
-        }
-        .cb:hover{
-            transform: scale(1.2);
-        }
-        .up{
-            font-size: 50;
-            width: 30%;
-            height: 7%;
-            margin-left: 35%;
-            text-align: center;
-            text-decoration: black;
-            font:700;
-            transition: 1.5s;
 
-        }
-        .f1{
-            height: 80%;
-            width: 98%;
-            margin-top: 2%;
-            margin-left: 1%;
-            float: left;
-            overflow: scroll;
-        }
-        .f5{
-            overflow: scroll;
-            height: 80%;
-            width: 98%;
-        }
-        .f2{
-            height: 80%;
-            width: 98%;
-            margin-top: 2%;
-            margin-left: 1%;
-            float: left;
-            overflow: scroll;
-        }
-        .f3{
-            height: 80%;
-            margin-top: 2%;
-            width: 98%;
-            margin-left: 1%;
-            overflow: scroll;
-        }
-        .f4{
-            height: 80%;
-            width: 98%;
-            margin-top: 2%;
-            margin-left: 1%;
-            overflow: scroll;
-        }
-        .io{
-            font-size: 25;
-            color: blue;
-            width: 25%;
-            position: relative;
-            float: left;
-
-        }
-        .om{
-          font-size: 25;
-            color: blue;
-            width: 25%;
-            position: relative;
-            float: left;
-            margin-left: 5%;
-        }
-        .dd{
-            font-size: 25;
-            color: blue;
-            width: 25%;
-            position: relative;
-            float: left;
-            margin-left: 5%;
-        }
-        
-        
-        .is{
-            height: 25%;
-            width: 25%;
-            transition: 1s;
-        }
-        .is:hover{
-            filter:sepia(4);
-            
-        }
-        .om1{
-            height: 25%;
-            width: 25%;
-            margin-left: 5%;
-            transition: 1s;
-        }
-        .om1:hover{
-         filter:sepia(4);
-               
-        }
-        .dm{
-            height: 25%;
-            width: 25%;
-            margin-left: 10%;
-            transition: 1s;
-        }
-        .dm:hover{
-            filter:sepia(4);
-            
-        }
-        </style>
+        .home,.nav{display: flex; flex-direction: column;}
+       }
+</style>
 </HEAD>
-<body>
+<body bgcolor="black">
+     <div class="name">
+<div class="abc">Tech-Reck</div>
+    
+ </div>
+        
     <div class="nav">
-    <a href="#im">Home</a>
-    <a href="#io">About</a>
-	<a href="#ip">Tech Updates</a>
-	<a href="#ik">Contact Us</a>
+    <a href="home.html">Home</a>
+    <a href="about.html">About</a>
+	<a href="updates.html">Tech Updates</a>
+	<a href="contact.html">Contact Us</a>
 	</div>
-    <div class="home" id="im">
-        <div class="name">TECH-RECK</div>
-        <div class="content">
+    
+    <div class="home" i>
+       <div class="content">
            <p>
+            <br><br><br><br><br><br><br>
              This is for solution of C , HTML and tutorial for how to<br> boot os and promblem
              
              regarding any OS.Here you will<br> also find the daily update .
@@ -181,54 +62,5 @@
 
         </div>
     </div>
-	<div class="about" id="io">
-  
-  
-           
-        <div class="io">
-            <p>Isha kotak
-            <br> Student at Xavier's college 
-            <br> BCA first year
-            <br>Achievement: C and Robotics.
-             </p>
-</div>
-   <div class="om">
-    <p>Om Kadia
-    <br>Achievement:C and Robotics.
-    </p>
-</div>
-<div class="dd">
-    <p>Devansh Desai
-    <br>Student at SSIT college
-    <br>Pursuing C.E first year
-    <br>Achievement:C and Robotics.
-    </p>
-</div>
-<div class="ph">
-<img src="ISHA.png"  class="is" />
-<img src="om.png" class="om1" />
-
-<img src="devansh.png" class="dm" />
-    </div></div>
-	<div class="updates" id="ip">
-     <div class="up">Tech Updates</div>
-       <div class="f5">
-        <img src="f1.png" class="f1"/>
-        <img src="f2.png" class="f2"/>
-        <img src="f3.png" class="f3"/>
-        <img src="f5.png" class="f4"/>
-    </div>
-    </div>
-	<div class="contact" id="ik">
-
-        <div class="cn">Contact Us</div>
-        <div class="cb">
-            <p>
-                Email:contacttechreck@gmail.com
-                <br>Instagram:tech_reck3.
-            </p>
-        </div>
-    </div>
-
-</body>
-</html>
+    </body>
+    </html>
